@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.filipzoricic.mychat.ContactListFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:id="@+id/actionButton"
+        android:src="@drawable/ic_add_black_24dp"
+        app:fabSize="normal"
+        android:layout_marginBottom="16dp"
+        android:tint="#fff"
+        app:backgroundTint="@color/colorPrimary"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:visibility="gone"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:id="@+id/editText"
+            android:background="#fff"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:layout_weight="2"
+            android:text="add"
+            android:id="@+id/buttonAdd"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

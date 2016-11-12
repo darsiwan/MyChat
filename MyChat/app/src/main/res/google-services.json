@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "246569741870",
+    "firebase_url": "https://mychat-75256.firebaseio.com",
+    "project_id": "mychat-75256",
+    "storage_bucket": "mychat-75256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246569741870:android:1d83cddadda445d6",
+        "android_client_info": {
+          "package_name": "com.example.filipzoricic.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246569741870-6gvo8kfdvfivk2q3i059sca02vik2rsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt25Y3tZgPioDAucHQIZ8tUxSWfwuhCR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
